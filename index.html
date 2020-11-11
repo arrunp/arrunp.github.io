@@ -1,0 +1,387 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arrun Patkunasingam</title>
+  <link rel="icon" href="assets/img/a.png">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+  <script src="assets/js/main.js"></script>
+  <script type='text/javascript'
+    src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+</head>
+
+<body onload="unfade(welcome)" id="body">
+  <!--adding toolbar-->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg disappear fixed-top" id="toolbar">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#welcome" data-toggle="collapse" data-target=".navbar-collapse.show">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about_me" data-toggle="collapse" data-target=".navbar-collapse.show">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#exp" data-toggle="collapse" data-target=".navbar-collapse.show">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tech_skills" data-toggle="collapse" data-target=".navbar-collapse.show">Tech
+              Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact_me" data-toggle="collapse" data-target=".navbar-collapse.show">Contact
+              Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!--adding toolbar-->
+  <div class="container">
+    <div class="row" id="welcome">
+      <div class="col-lg-12">
+        <div id="content">
+          <h1 class="display-4 titles" id="hello">Hi, I'm Arrun. Nice to meet you!</h1>
+          <hr>
+          <img src="assets/img/arrun_site.jpg" id="face">
+          <div id="banner">
+            <ul class="nav nav-pills">
+              <li class="nav-item"><a class="nav-link" href="#welcome">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about_me">About Me</a></li>
+              <li class="nav-item"><a class="nav-link" href="#exp">Experience</a></li>
+              <li class="nav-item"><a class="nav-link" href="#tech_skills">Tech Skills</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact_me">Contact Me</a></li>
+            </ul>
+          </div>
+
+          <span id="banner-mark"></span>
+
+          <div class="dropdown" id="dropbanner">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#welcome">Home</a>
+              <a class="dropdown-item" href="#about_me">About Me</a>
+              <a class="dropdown-item" href="#exp">Experience</a>
+              <a class="dropdown-item" href="#tech_skills">Tech Skills</a>
+              <a class="dropdown-item" href="#contact_me">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="row icon-box" id="icons">
+            <div class="col-4 icon" style="text-align: right"> <a href="https://www.linkedin.com/in/arrun-p"
+                target="_blank"> <i class="fab fa-linkedin fa-3x"></i></a></div>
+            <div class="col-4 icon" style="text-align: center"> <a href="https://www.github.com/arrunp/Projects"
+                target="_blank"> <i class="fab fa-github-square fa-3x"> </i></a> </div>
+            <div class="col-4 icon" style="text-align: left"> <a href="mailto:patkunaa@mcmaster.ca"><i
+                  class="fas fa-envelope-square fa-3x"></i></a></div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12" style="text-align: center; padding-top: 50px">
+              <a href="assets/resume.pdf" target="_blank" download><button type="button"
+                  class="btn btn-primary btn-lg resume">Resume</button></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!--About me section-->
+    <span id="about_me"></span>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="info-box" id="about" style="margin-top:50px">
+            <h1 class="display-4 titles">About me</h1>
+            <hr>
+            <div class="row">
+              <div class="col-lg-6 about_content"><img src="assets/img/mcmaster.png" id="mcmaster_about"></div>
+              <div class="col-lg-6 about_content">
+                <div id="about_p">
+                  <p> Hello! I'm Arrun, a 3rd year Software Engineering Co-Op student at McMaster University in
+                    Hamilton, Ontario. I'm always looking for new learning opportunities so if you think you've got a
+                    role for me, please feel free to reach out!</p>
+                  <p> When I'm not learning about new areas of software development that might interest me, whether its
+                    web development or computer vision, I enjoy reading (currently reading 'The Happiness Equation'),
+                    playing sports like basketball or badminton, and exploring new tech.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Work experience section-->
+    <span id="exp"></span>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="info-box" id="experience">
+          <h1 class="display-4 titles">Experience</h1>
+          <hr>
+
+          <!--blocks representing work experience-->
+          <div class="container">
+            <h2 style="padding-top: 15px; text-align: center; color:#ddd7de; max-width: 100%;">Work
+              Experience</h2>
+            <div class="row">
+              <div class="col-lg-6 about_content">
+                <img src="assets/img/fgf.png" id="fgf_exp">
+                <h4>FGF Brands</h4>
+                <h6>Software QA Analyst</h6>
+                <h6>May 2020 - Present</h6>
+              </div>
+
+              <div class="col-lg-6 about_content">
+                <div id="about_p">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item exp_note">Implementing automated Performance Testing using Apache JMeter
+                      and Selenium</li>
+                    <li class="list-group-item exp_note">Performing regression tests to ensure in-house applications are
+                      in working order and report bugs using the Azure Devops Environment</li>
+                    <li class="list-group-item exp_note">Providing suggestions for making applications more user
+                      friendly and making sure they are inline with software requirements</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 about_content"><img src="assets/img/rbc.png" id="rbc_exp">
+                <h4>Royal Bank of Canada</h4>
+                <h6>DevOps Engineer</h6>
+                <h6>Jan 2020 - April 2020</h6>
+              </div>
+
+              <div class="col-lg-6 about_content">
+                <div id="about_p">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item exp_note">Improving scripts (Python, TypeScript) to automate solving
+                      common issues that the Operations/Testing teams face, such as scripts to provide new users with
+                      access to necessary Testing tools</li>
+                    <li class="list-group-item exp_note">Providing support for tools used by the Operations/Testing
+                      teams and documenting common issues and solutions using JIRA and Confluence in case of future
+                      occurrences</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 about_content"><img src="assets/img/mcmaster.png" id="mcmaster_about">
+                <h4>McMaster Mars Rover Team</h4>
+                <h6>Vision Sub-Team Member</h6>
+                <h6>September 2019 - April 2020</h6>
+              </div>
+
+              <div class="col-lg-6 about_content">
+                <div id="about_p">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item exp_note">Using the OpenCV package in C++ and Python to allow the Mars
+                      Rover to detect items and obstacles using its camera input, aiding in autonomous travel </li>
+                    <li class="list-group-item exp_note">Working with the Movement Sub-Team members to translate the
+                      detected obstacles and items from the vision input into what directions the Mars Rover should
+                      navigate itself</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--blocks representing work experience above-->
+
+          <h2 style="padding-top: 25px; text-align: center; color:#ddd7de; max-width: 100%;">Projects</h2>
+          <div class="row" style="text-align: center;">
+            <div class="col-lg-6">
+              <div class="card mx-auto" style="width: 18rem; margin-top: 45px;">
+                <img class="card-img-top" src="assets/img/bug.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Bug Reporter Site</h5>
+                  <p class="card-text">Site to record bugs/tasks that need to be completed for projects you are working
+                    on.
+                  </p>
+                  <a target="_blank" href="https://bugreporterapp.herokuapp.com/" class="btn btn-primary">Go to Site</a>
+                  <a target="_blank" href="https://github.com/arrunp/Projects/tree/master/bug_reporter"
+                    class="btn btn-primary">Go to Code</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card mx-auto" style="width: 18rem; margin-top: 45px;">
+                <img class="card-img-top" src="assets/img/dict.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Translating Dictionary</h5>
+                  <p class="card-text">Provides definitions and uses Google Translate API to provide
+                    translations of word/ definition in selected language.
+                  </p>
+                  <a target="_blank" href="https://github.com/arrunp/Projects/tree/master/dictionary_app"
+                    class="btn btn-primary">Go to Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Technical Skills Section-->
+  <span id="tech_skills"></span>
+  <div class="info-box" id="langs">
+    <h1 class="display-4 titles">Technical Skills</h1>
+    <hr>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 about_content">
+          <h2 style="margin-bottom: 20px; max-width: 100%;">Languages</h2>
+          <span style="padding:5px"></span>
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <h4>Proficient</h4>
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td style="width: 33%">Python</td>
+                    <td style="width: 33%">Java</td>
+                    <td style="width: 33%">HTML/CSS/JS</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <table class="table" style="margin-top: -10px;">
+                <tbody>
+                  <tr>
+                    <td style="width: 50%">TypeScript</td>
+                    <td style="width: 50%">SQL</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="col-lg-6 col-sm-12">
+              <h4>Familiar</h4>
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td>C/C++</td>
+                    <td>Bash</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6 col-sm-12 about_content">
+              <h2 style="margin-top:40px; padding-bottom: 25px; max-width: 100%;">Libraries/Frameworks
+              </h2>
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td style="width: 33%">Django</td>
+                    <td style="width: 33%">Node.js</td>
+                    <td style="width: 33%">React.js</td>
+                  </tr>
+                  <tr>
+                    <td style="width: 33%">Express.js</td>
+                    <td style="width: 33%">Selenium</td>
+                    <td style="width: 33%">OpenCV</td>
+                  </tr>
+                  <tr>
+                    <td style="width: 33%">scikit-learn</td>
+                    <td style="width: 33%">pandas</td>
+                    <td style="width: 33%">Numpy</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+
+
+            <div class="col-lg-6 about_content">
+              <h2 style="margin-top:40px; padding-bottom: 25px; max-width: 100%;">Other Tools</h2>
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td style="width: 33%">Git</td>
+                    <td style="width: 33%">PostgreSQL</td>
+                    <td style="width: 33%">Visual Studio Code</td>
+                  </tr>
+                  <tr>
+                    <td style="width: 33%">Eclipse</td>
+                    <td style="width: 33%">JIRA/Confluence</td>
+                    <td style="width: 33%">Azure DevOps Environment</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Contact Section-->
+  <span id="contact_me"></span>
+  <div class="info-box" id="contact">
+    <h1 class="display-4 titles">Contact me</h1>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p style="color:#f5f0f6; padding-top:40px; text-align: center;">If you think you have an opporunity that I
+            might be a fit for, please feel free to contact me!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 icon" style="text-align: right; padding-right: 40px"> <a
+            href="https://www.linkedin.com/in/arrun-p" target="_blank"> <i class="fab fa-linkedin fa-3x"></i></a>
+        </div>
+        <div class="col-4 icon" style="text-align: center;"><a href="assets/resume.pdf" target="_blank" download><button
+              type="button" class="btn btn-primary btn-lg resume">Resume</button></a></div>
+        <div class="col-4 icon" style="text-align: left; padding-left: 40px;"> <a href="mailto:patkunaa@mcmaster.ca"><i
+              class="fas fa-envelope-square fa-3x"></i></a></div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
