@@ -151,22 +151,28 @@
             <h2 style="padding-top: 15px; text-align: center; color:#ddd7de; max-width: 100%;">Work
               Experience</h2>
             <div class="row">
-              <div class="col-lg-6 about_content">
-                <img src="assets/img/fgf.png" id="fgf_exp">
-                <h4>FGF Brands</h4>
-                <h6>Software QA Engineer</h6>
-                <h6>May 2020 - December 2020</h6>
+              <div class="col-lg-6 about_content" style="display: flex; justify-content: center; align-items: center;">
+                <div>
+                  <img src="assets/img/fgf.png" id="fgf_exp">
+                  <h4>FGF Brands Inc.</h4>
+                  <h6>Software QA Engineer</h6>
+                  <h6>May 2020 - December 2020</h6>
+                </div>
               </div>
 
-              <div class="col-lg-6 about_content">
+              <div class="col-lg-6 about_content" style="display: flex; justify-content: center; align-items: center;">
                 <div id="about_p">
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item exp_note">Implementing automated Performance Testing using Apache JMeter
-                      and Selenium</li>
-                    <li class="list-group-item exp_note">Performing regression tests to ensure in-house applications are
-                      in working order and report bugs using the Azure Devops Environment</li>
-                    <li class="list-group-item exp_note">Providing suggestions for making applications more user
-                      friendly and making sure they are inline with software requirements</li>
+                    <li class="list-group-item exp_note">Developed a modularized Java based Selenium testing framework
+                      to improve code reusability for automated testing
+                      of future applications</li>
+                    <li class="list-group-item exp_note">Implemented automated functional and performance testing
+                      using Selenium and JMeter reducing regression testing
+                      time by 80% resulting in faster releases to production</li>
+                    <li class="list-group-item exp_note">Performed manual regression and black box testing resulting in
+                      a 90% increase in bug discoveries. Partnered with
+                      internal teams to analyze and resolve these defects while using the Azure DevOps environment to
+                      track changes.</li>
                   </ul>
                 </div>
               </div>
@@ -175,21 +181,28 @@
 
           <div class="container">
             <div class="row">
-              <div class="col-lg-6 about_content"><img src="assets/img/rbc.png" id="rbc_exp">
-                <h4>Royal Bank of Canada</h4>
-                <h6>DevOps Engineer</h6>
-                <h6>January 2020 - April 2020</h6>
+              <div class="col-lg-6 about_content" style="display: flex; justify-content: center; align-items: center;">
+                <div>
+                  <img src="assets/img/rbc.png" id="rbc_exp">
+                  <h4>Royal Bank of Canada</h4>
+                  <h6>DevOps Engineer</h6>
+                  <h6>January 2020 - April 2020</h6>
+                </div>
               </div>
 
-              <div class="col-lg-6 about_content">
+              <div class="col-lg-6 about_content" style="display: flex; justify-content: center; align-items: center;">
                 <div id="about_p">
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item exp_note">Improving scripts (Python, TypeScript) to automate solving
-                      common issues that the Operations/Testing teams face, such as scripts to provide new users with
-                      access to necessary Testing tools</li>
-                    <li class="list-group-item exp_note">Providing support for tools used by the Operations/Testing
-                      teams and documenting common issues and solutions using JIRA and Confluence in case of future
-                      occurrences</li>
+                    <li class="list-group-item exp_note">Developed a program in JavaScript which leveraged Jira REST
+                      APIs to automate providing clients with solutions
+                      to their Jira tickets. Resulted in 40% more closed tickets per week.</li>
+                    <li class="list-group-item exp_note">Provided support for tools used by the Operations/Testing teams
+                      and documented common solutions for these
+                      issues using Confluence which led to a 30% decrease in Jira tickets logged</li>
+                    <li class="list-group-item exp_note">Worked on an agile release train to provide clients with
+                      scripts that helped automate redundant tasks for the tools
+                      they used</li>
+
                   </ul>
                 </div>
               </div>
@@ -204,14 +217,15 @@
                 <h6>September 2019 - April 2020</h6>
               </div>
 
-              <div class="col-lg-6 about_content">
+              <div class="col-lg-6 about_content" style="display: flex; justify-content: center; align-items: center;">
                 <div id="about_p">
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item exp_note">Using the OpenCV package in C++ and Python to allow the Mars
-                      Rover to detect items and obstacles using its camera input, aiding in autonomous travel </li>
-                    <li class="list-group-item exp_note">Working with the Movement Sub-Team members to translate the
-                      detected obstacles and items from the vision input into what directions the Mars Rover should
-                      navigate itself</li>
+                  <ul class=" list-group list-group-flush">
+                    <li class="list-group-item exp_note">Worked with an interdisciplinary team to implement object
+                      detection using the YOLOv3 algorithm with Python
+                      OpenCV and Robot Operating System (ROS). Resulted in the rover retrieving items autonomously with
+                      a 97%
+                      success rate based on live vision input.</li>
+
                   </ul>
                 </div>
               </div>
@@ -220,7 +234,7 @@
 
           <!--blocks representing work experience above-->
 
-          <h2 style="padding-top: 25px; text-align: center; color:#ddd7de; max-width: 100%;">Projects</h2>
+          <h2 style="padding-top: 40px; text-align: center; color:#ddd7de; max-width: 100%;">Projects</h2>
           <div class="row card-group" style="text-align: center;">
             <div class="col-lg-4">
               <div class="card mx-auto" style="width: 18rem; margin-top: 45px;">
@@ -267,98 +281,141 @@
   </div>
 
   <!--Technical Skills Section-->
+  <!--
   <span id="tech_skills"></span>
-  <div class="info-box" id="langs">
+  <div class="info-box">
     <h1 class="display-4 titles">Technical Skills</h1>
-    <hr>
+    <hr style="margin-bottom: 50px;">
+    <table class="table table-bordered" style="color:#ddd7de;">
+      <tbody>
+        <tr>
+          <th class="tech_skills">
+            <h4>Languages</h4>
+          </th>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 about_content">
-          <h2 style="margin-bottom: 20px; max-width: 100%;">Languages</h2>
-          <span style="padding:5px"></span>
-          <div class="row">
-            <div class="col-lg-6 col-sm-12">
-              <h4>Proficient</h4>
-              <table class="table">
-                <tbody>
-                  <tr>
-                    <td style="width: 33%">Python</td>
-                    <td style="width: 33%">Java</td>
-                    <td style="width: 33%">HTML/CSS/JS</td>
-                  </tr>
-                </tbody>
-              </table>
+          <td>Python • Java • JavaScript • HTML/CSS • C • C++ • SQL</td>
+        </tr>
+        <tr>
+          <th>
+            <h4 class="tech_skills">Databases</h4>
+          </th>
+          <td>MongoDB • PostgreSQL</td>
 
-              <table class="table" style="margin-top: -10px;">
-                <tbody>
-                  <tr>
-                    <td style="width: 50%">TypeScript</td>
-                    <td style="width: 50%">SQL</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+        </tr>
+        <tr>
+          <th>
+            <h4 class="tech_skills">Frameworks</h4>
+          </th>
+          <td colspan="2">Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+        <tr>
+          <th>
+            <h4 class="tech_skills">
+              Developer Tools</h4>
+          </th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th>
+            <h4 class="tech_skills">Libraries</h4>
+          </th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+      </tbody>
+    </table>
+  -->
 
-            <div class="col-lg-6 col-sm-12">
-              <h4>Familiar</h4>
-              <table class="table">
-                <tbody>
-                  <tr>
-                    <td>C/C++</td>
-                    <td>Bash</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 about_content">
+        <h2 style="margin-bottom: 20px; max-width: 100%;">Languages</h2>
+        <span style="padding:5px"></span>
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <h4>Proficient</h4>
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td style="width: 33%">Python</td>
+                  <td style="width: 33%">Java</td>
+                  <td style="width: 33%">HTML/CSS/JS</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table class="table" style="margin-top: -10px;">
+              <tbody>
+                <tr>
+                  <td style="width: 50%">TypeScript</td>
+                  <td style="width: 50%">SQL</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
 
-          <div class="row">
-            <div class="col-lg-6 col-sm-12 about_content">
-              <h2 style="margin-top:40px; padding-bottom: 25px; max-width: 100%;">Libraries/Frameworks
-              </h2>
-              <table class="table">
-                <tbody>
-                  <tr>
-                    <td style="width: 33%">Django</td>
-                    <td style="width: 33%">Node.js</td>
-                    <td style="width: 33%">React.js</td>
-                  </tr>
-                  <tr>
-                    <td style="width: 33%">Express.js</td>
-                    <td style="width: 33%">Selenium</td>
-                    <td style="width: 33%">OpenCV</td>
-                  </tr>
-                  <tr>
-                    <td style="width: 33%">scikit-learn</td>
-                    <td style="width: 33%">pandas</td>
-                    <td style="width: 33%">Numpy</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-
-
-            <div class="col-lg-6 about_content">
-              <h2 style="margin-top:40px; padding-bottom: 25px; max-width: 100%;">Other Tools</h2>
-              <table class="table">
-                <tbody>
-                  <tr>
-                    <td style="width: 33%">Git</td>
-                    <td style="width: 33%">PostgreSQL</td>
-                    <td style="width: 33%">Visual Studio Code</td>
-                  </tr>
-                  <tr>
-                    <td style="width: 33%">Eclipse</td>
-                    <td style="width: 33%">JIRA/Confluence</td>
-                    <td style="width: 33%">Azure DevOps Environment</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
+          <div class="col-lg-6 col-sm-12">
+            <h4>Familiar</h4>
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td>C/C++</td>
+                  <td>Bash</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 col-sm-12 about_content">
+            <h2 style="margin-top:40px; padding-bottom: 25px; max-width: 100%;">Libraries/Frameworks
+            </h2>
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td style="width: 33%">Django</td>
+                  <td style="width: 33%">Node.js</td>
+                  <td style="width: 33%">React.js</td>
+                </tr>
+                <tr>
+                  <td style="width: 33%">Express.js</td>
+                  <td style="width: 33%">Selenium</td>
+                  <td style="width: 33%">OpenCV</td>
+                </tr>
+                <tr>
+                  <td style="width: 33%">scikit-learn</td>
+                  <td style="width: 33%">pandas</td>
+                  <td style="width: 33%">Numpy</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+
+          <div class="col-lg-6 about_content">
+            <h2 style="margin-top:40px; padding-bottom: 25px; max-width: 100%;">Other Tools</h2>
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td style="width: 33%">Git</td>
+                  <td style="width: 33%">PostgreSQL</td>
+                  <td style="width: 33%">Visual Studio Code</td>
+                </tr>
+                <tr>
+                  <td style="width: 33%">Eclipse</td>
+                  <td style="width: 33%">JIRA/Confluence</td>
+                  <td style="width: 33%">Azure DevOps Environment</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 body{
 	background: #2b4162;
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 }
 
 html{
@@ -178,7 +178,7 @@ i{
 }
 
 #contact{
-	margin-bottom: 100px;
+	margin-top: -20px;
 }
 
 #toolbar{
@@ -194,3 +194,8 @@ i{
 	display:none
 }
 
+.tech_skills{
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
+}
